@@ -8,5 +8,8 @@ PHP project skeleton
 
 ## Usage
 
+    cd newproject
+    git clone --depth=1 https://github.com/bigwhoop/skeleton.git .
+    rm -rf .git
     composer update
     vendor/bin/codecept bootstrap
